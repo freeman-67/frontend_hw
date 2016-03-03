@@ -1,0 +1,144 @@
+html, body {
+background-color: #000;
+  }
+
+
+/*CONTENT*/
+.content {
+  width: 960px;
+  height: 882px;
+  margin: 0 auto;
+  background-image: url("../img/bg.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header {
+  width: 960px;
+  height: 204px;
+  position: relative;
+}
+
+/*LOGO*/
+.logo {
+  width: 266px;
+  height: 145px;
+  padding: 57px 0px 0px 70px;
+  float: left;
+}
+/*LOGO END*/
+
+/*CONTACT US*/
+.contact {
+  width: 90px;
+  height: 36px;
+  position: absolute;
+  padding: 152px 70px 0px 100px;
+  right: 0px;
+  float: left;
+  color: #e1e1e1;
+}
+.contact_us {
+ padding-bottom: 8px;
+ font-family: Tahoma, Verdana, Segoe, sans-serif;
+ font-size: 10.16px;
+}
+.telephone, .email {
+ font-family: Tahoma, Verdana, Segoe, sans-serif;
+ font-size: 8.47px;
+}
+/*CONTACT US END*/
+/*CONTRIES*/
+.contries {
+ width: 960px;
+ height: 447px;
+ position: relative;
+}
+.box1 {
+  width: 817px;
+  height: 197px;
+  position: relative;
+  padding: 0px 70px;
+}
+.india {
+  padding: 0px 12px 0px 0px;
+  float: left;
+}
+.india_ramka {
+  width: 260px;
+  height: 178px;
+  border: 2px solid #9b9b9b;
+  text-align: center;
+}
+.nepal {
+  padding: 0px 12px 0px 0px;
+  float: left;
+}
+.nepal_ramka {
+  width: 260px;
+  height: 178px;
+  border: 2px solid #9b9b9b;
+  text-align: center;
+}
+.tibet {
+  float: left;
+}
+.tibet_ramka {
+  width: 260px;
+  height: 178px;
+  border: 2px solid #9b9b9b;
+  text-align: center;
+}
+.contries_text {
+  font-family: Tahoma;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.box2 {
+  width: 817px;
+  height: 197px;
+  position: relative;
+  padding: 53px 70px 0px 70px;
+}
+.bhutan {
+  padding: 0px 12px 0px 0px;
+  float: left;
+}
+.bhutan_ramka {
+  width: 260px;
+  height: 178px;
+  border: 2px solid #9b9b9b;
+  text-align: center;
+}
+.srilanka {
+  padding: 0px 12px 0px 0px;
+  float: left;
+}
+.srilanka_ramka {
+  width: 260px;
+  height: 178px;
+  border: 2px solid #9b9b9b;
+  text-align: center;
+}
+.maldives {
+  float: left;
+}
+.maldives_ramka {
+  width: 260px;
+  height: 178px;
+  border: 2px solid #9b9b9b;
+  text-align: center;
+}
+/*CONTENT END*/
+/*FOOTER*/
+.footer {
+  padding: 190px 0px 0px 400px;
+  color: #e1e1e1;
+}
+span {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 10.16px;
+}
+/*FOOTER END*/
