@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'Tahoma-Regular';
+    src: url('../fonts/Tahoma-Regular.eot');
+    src: url('../fonts/Tahoma-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Tahoma-Regular.woff') format('woff'),
+         url('../fonts/Tahoma-Regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  width: 1280px;
+  height: 1022px;
+  background-image: url(../img/bg.png);
+  background-repeat: repeat-x;
+  background-color: #0c739f;
+}
+.site {
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+  width: 1000px;
+  height: 988px;
+  left: 151px;
+  position: relative;
+}
+/*HEADER*/
+.header {
+  width: 1000px;
+  height: 174px;
+  position: relative;
+  background-color: white;
+}
+/*BOX LEFT*/
+.box_left {
+  width: 50%;
+  height: 174px;
+  float: left;
+}
+.logo {
+  height: 174px;
+}
+.logo img {
+  position: absolute;
+  padding-top: 11px;
+  padding-left: 28px;
+}
+.logo p {
+  width: 120px;
+  padding: 108px 0px 0px 100px;
+  font-family: 'Tahoma-Regular';
+  color: #71aec1;
+  font-size: 12px;
+}
+/*BOX LEFT END*/
+/*BOX RIGHT*/
+.box_right {
+  width: 50%;
+  height: 174px;
+  float: right;
+}
+/*BOX INFO*/
+.box_info p {
+  padding-left: 343px;
+  font-family: 'Tahoma-Regular';
+  color: #71aec1;
+  font-size: 12px;
+}
+.contact {
+  padding-top: 10px;
+  font-weight: bold;
+}
+.telephone1{
+  padding-top: 8px;
+}
+.telephone2 {
+  padding-top: 6px;
+}
+.email {
+  padding-top: 5px;
+}
+/*BOX INFO END*/
+/*CONTRIES*/
+.contries {
+  width: 360px;
+  height: 64px;
+  padding-left: 140px;
+  padding-top: 34px;
+}
+.contries a {
+  font-family: 'Tahoma-Regular';
+  color: #128aa7;
+  font-size: 10px;
+  vertical-align: text-top;
+}
+.india {
+  width: 42px;
+  height: 64px;
+  float: left;
+  text-align: center;
+}
+.nepal {
+  width: 42px;
+  height: 64px;
+  float: left;
+  padding-left: 16px;
+  text-align: center;
+}
+.tibet {
+  width: 42px;
+  height: 64px;
+  float: left;
+  padding-left: 14px;
+  text-align: center;
+}
+.bytan {
+  width: 42px;
+  height: 64px;
+  float: left;
+  padding-left: 13px;
+  text-align: center;
+}
+.shri-lanka {
+  width: 56px;
+  height: 64px;
+  float: left;
+  padding-left: 7px;
+  text-align: center;
+}
+.maldives {
+  width: 42px;
+  height: 64px;
+  float: left;
+  padding-left: 8px;
+  text-align: center;
+}
+/*CONTRIES END*/
+/*BOX RIGHT END*/
+/*HEADER END*/
+/*SLIDER*/
+.slider {
+  width: 1000px;
+  height: 237px;
+  position: relative;
+  padding-top: 1px;
+}
+/*SLIDER END*/
+/*MENU*/
+.bgc {
+  width: 1000px;
+  height: 1px;
+  position: relative;
+  background-color: #cacbcb;
+}
+.menu_head ul{
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.69);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.69);
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.69);
+  width: 1000px;
+  height: 28px;
+  position: relative;
+  display: block;
+  list-style: none;
+  background-color: #353535;
+  font-family: 'Tahoma-Regular';
+  color: #128aa7;
+  font-size: 14px;
+  z-index: 1;
+}
+.home {
+  padding-left: 67px;
+}
+.traveling {
+  padding-left: 66px;
+}
+.servis {
+  padding-left: 53px;
+}
+.partners {
+  padding-left: 63px;
+}
+.reviews {
+  padding-left: 55px;
+}
+.about {
+  padding-left: 74px;
+}
+.contacts {
+  padding-left: 62px;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding-top: 6px;
+    color: white;
+    text-decoration: none;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 148px;
+    height: 125px;
+    top: 28px;
+    margin-left: -8px;
+    background-color: #303030;
+    border: 1px solid black;
+    z-index: 1;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 5px;
+    padding-left: 7px;
+    color: white;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+/*MENU END*/
+/*CONTENT*/
+.content {
+  width: 1000px;
+  height: 546px;
+  background-color: white;
+}
+.c_news {
+  float: left;
+  width: 100%;
+  background: #edeef0;
+  overflow: hidden;
+  position: relative;
+}
+.c_box {
+  float: left;
+  width: 100%;
+  background: white;
+  position: relative;
+  right: 21%;
+  border-right: 1px solid #c7cacf;
+}
+.c_info {
+  float: left;
+  width: 100%;
+  background: #edeef0;
+  position: relative;
+  right: 58%;
+  border-right: 1px solid #c7cacf;
+}
+.col_info {
+  float: left;
+  width: 18%;
+  position: relative;
+  left: 80%;
+  overflow: hidden;
+}
+.col_box {
+  float: left;
+  width: 36%;
+  position: relative;
+  left: 76%;
+  overflow: hidden;
+}
+.col_news {
+  float: left;
+  width: 18%;
+  position: relative;
+  left: 141%;
+  overflow: hidden;
+}
+h1 {
+  font-family: 'Tahoma-Regular';
+  color: #424c43;
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.info_text {
+  font-family: 'Tahoma-Regular';
+  color: #424c43;
+  font-size: 14px;
+  padding-top: 3px;
+  text-align: center;
+  line-height: 24px;
+}
+.text_right {
+  margin-bottom: 10px;
+}
+/*CONTENT END*/
+/*FOOTER*/
+.footer {
+  padding-top: 8px;
+  font-family: 'Tahoma-Regular';
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+/*FOOTER END*/
