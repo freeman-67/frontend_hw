@@ -4,6 +4,7 @@
     src: url('../fonts/Tahoma-Regular.eot?#iefix') format('embedded-opentype'),
          url('../fonts/Tahoma-Regular.woff') format('woff'),
          url('../fonts/Tahoma-Regular.ttf') format('truetype'),
+         url('../fonts/Tahoma-Regular.svg#Tahoma-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -152,7 +153,7 @@ html, body {
   position: relative;
   background-color: #cacbcb;
 }
-.menu_head ul{
+.menu_head ul {
   -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.69);
   -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.69);
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.69);
@@ -172,6 +173,7 @@ html, body {
 }
 .traveling {
   padding-left: 66px;
+  top: 8 px;
 }
 .servis {
   padding-left: 53px;
@@ -188,6 +190,9 @@ html, body {
 .contacts {
   padding-left: 62px;
 }
+.menu>li{
+    position:relative;
+}
 ul:after {
     display: block;
     content: ' ';
@@ -203,13 +208,13 @@ ul.menu > li > a {
     padding-top: 6px;
     color: white;
     text-decoration: none;
+    padding-bottom: 8px;
 }
 ul.submenu {
     display: none;
     position: absolute;
     width: 148px;
     height: 125px;
-    top: 28px;
     margin-left: -8px;
     background-color: #303030;
     border: 1px solid black;
@@ -225,10 +230,11 @@ ul.submenu > li > a {
     color: white;
     text-decoration: none;
 }
-ul.submenu > li > a:hover {
+ul.submenu > li > ul:hover {
     text-decoration: underline;
+    display: block;
 }
-ul.menu > li:hover > ul.submenu {
+.menu > li:hover ul {
     display: block;
 }
 /*MENU END*/
