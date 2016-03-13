@@ -22,6 +22,7 @@ body {
 /***** NAVIGATION BAR *****/
 
 .navbar{
+  margin: 0 auto;
   width: 1349px;
   height: 36px;
   background: url(../img/header-bg.png) repeat;
@@ -101,6 +102,7 @@ li a.active {
 
 /***** CONTENT *****/
 .content {
+  margin: 0 auto;
   width: 1349px;
   height: 1024px;
   top: 36px;
